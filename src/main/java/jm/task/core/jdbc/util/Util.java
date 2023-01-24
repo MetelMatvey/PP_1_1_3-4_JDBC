@@ -13,7 +13,7 @@ public class Util {
     private final static String USERNAME = "roo";
     private final static String PASSWORD = "root";
 
-    public Connection getConnection() {
+    public static Connection getConnection() {
         Connection connection = null;
         try {
             connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
